@@ -13,7 +13,7 @@ namespace ProjetFinal
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new PagePrincipale();
         }
         public App(string cheminBD)
         {

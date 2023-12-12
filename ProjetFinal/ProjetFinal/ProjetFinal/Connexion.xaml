@@ -4,9 +4,14 @@
              x:Class="ProjetFinal.Connexion">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Style="{StaticResource titre}" Text="Places Favoris"/>
+            <Label Style="{StaticResource sousTitre}" Text="Développé par Cavalera-Laverdiere Inc." />
+            <Label Style="{StaticResource controle}" Text="Adresse courriel" />
+            <Entry Keyboard="Email" Placeholder="Adresse courriel" PlaceholderColor="{StaticResource black}" x:Name="txtAdresseCourriel"/>
+            <Label Style="{StaticResource controle}" Text="Mot de passe" />
+            <Entry IsPassword="True" Placeholder="Mot de passe" PlaceholderColor="{StaticResource black}" x:Name="txtMotDePasse"/>
+            <Button Text="Connexion" x:Name="btnConnexion" Clicked="btnConnexion_Clicked"/>
+            <Button Style="{StaticResource lien}" Text="Nouveau compte" x:Name="btnCreerCompte" Clicked="btnCreerCompte_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
