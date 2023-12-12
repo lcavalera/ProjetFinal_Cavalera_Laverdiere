@@ -4,9 +4,15 @@
              x:Class="ProjetFinal.NouveauCompte">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Nouveau Compte" Style="{StaticResource titre}"/>
+            <Label Text="Adresse Courriel" Style="{StaticResource controle}"/>
+            <Entry x:Name="txtAdresseCourriel" Placeholder="Saisir une adresse courriel" Keyboard="Email"/>
+            <Label Text="Mot de passe" Style="{StaticResource controle}"/>
+            <Entry x:Name="txtMotDePasse" Placeholder="Saisir un mot de passe" IsPassword="True"/>
+            <Label Text="Confirmation de mot de passe" Style="{StaticResource controle}"/>
+            <Entry x:Name="txtConfirmMotDePasse" Placeholder="Confirmer le mot de passe" IsPassword="True"/>
+            <Button x:Name="btnCreerCompte" Text="Créer le compte" Clicked="btnCreerCompte_Clicked"/>
+            <Button Style="{StaticResource lien}" Text="Annuler" x:Name="btnAnnuler" Clicked="btnAnnuler_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
