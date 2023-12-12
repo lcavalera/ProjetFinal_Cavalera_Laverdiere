@@ -27,8 +27,8 @@ namespace ProjetFinal.iOS
             string repertoire = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
             string cheminBD = System.IO.Path.Combine(repertoire, nomBD);
             //enlever parametre de App() pour utiliser des donnés static
-            //LoadApplication(new App(cheminBD));
-            LoadApplication(new App());
+            LoadApplication(new App(cheminBD));
+            //LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);
         }

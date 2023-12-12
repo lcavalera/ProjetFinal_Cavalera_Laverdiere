@@ -20,8 +20,8 @@ namespace ProjetFinal.Droid
             string repertoire = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
             string cheminBD = System.IO.Path.Combine(repertoire, nomBD);
             //enlever parametre de App() pour utiliser des donnés static
-            //LoadApplication(new App(cheminBD));
-            LoadApplication(new App());
+            LoadApplication(new App(cheminBD));
+            //LoadApplication(new App());
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
