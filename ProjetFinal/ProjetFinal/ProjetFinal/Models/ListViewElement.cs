@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ProjetFinal.Models
 {
-    public class ListView
+    public class ListViewElement
     {
         [PrimaryKey, AutoIncrement]
         public int Id { get; set; }

@@ -23,7 +23,7 @@ namespace ProjetFinal
             using (var conn = new SQLiteConnection(CheminBD))
             {
                 conn.CreateTable<Utilisateur>();
-                conn.CreateTable<ListView>();
+                conn.CreateTable<ListViewElement>();
             }
         }
 
