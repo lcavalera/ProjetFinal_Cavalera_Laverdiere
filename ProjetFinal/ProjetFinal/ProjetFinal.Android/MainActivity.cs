@@ -16,6 +16,11 @@ namespace ProjetFinal.Droid
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+            string nomBD = "WebKeep_db.sqlite";
+            string repertoire = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+            string cheminBD = System.IO.Path.Combine(repertoire, nomBD);
+            //enlever parametre de App() pour utiliser des donnés static
+            //LoadApplication(new App(cheminBD));
             LoadApplication(new App());
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)

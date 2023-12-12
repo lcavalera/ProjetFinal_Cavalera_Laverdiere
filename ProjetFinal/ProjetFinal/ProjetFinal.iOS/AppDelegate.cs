@@ -23,6 +23,11 @@ namespace ProjetFinal.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+            string nomBD = "WebKeep_db.sqlite";
+            string repertoire = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+            string cheminBD = System.IO.Path.Combine(repertoire, nomBD);
+            //enlever parametre de App() pour utiliser des donnés static
+            //LoadApplication(new App(cheminBD));
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);
