@@ -1,4 +1,5 @@
-﻿using SQLite;
+﻿using ProjetFinal.Models;
+using SQLite;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -21,8 +22,8 @@ namespace ProjetFinal
             MainPage = new NavigationPage(new Connexion());
             using (var conn = new SQLiteConnection(CheminBD))
             {
-                conn.CreateTable<EntEquipe>();
-                conn.CreateTable<EntMatch>();
+                conn.CreateTable<Utilisateur>();
+                conn.CreateTable<ListView>();
             }
         }
 
