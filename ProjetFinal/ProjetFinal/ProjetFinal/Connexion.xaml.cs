@@ -54,7 +54,7 @@ namespace ProjetFinal
                 }
                 else
                 {
-                    var utilisateurChoisiOui = await DisplayAlert("Alerte", "Ce Compte n'existe pas, voulez-vous en créer un avec cet identifiant ?", "Non", "Oui");
+                    var utilisateurChoisiOui = await DisplayAlert("Alerte", "Ce Compte n'existe pas, voulez-vous en créer un avec cet identifiant ?", accept: "Oui", cancel:"Non");
                     if (utilisateurChoisiOui)
                     {
                         await Navigation.PushAsync(new NouveauCompte(adresseCourriel));
