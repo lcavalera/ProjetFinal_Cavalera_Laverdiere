@@ -1,0 +1,17 @@
+D:\A23\appMobile\projetFinal\projetFinal\ProjetFinal\ProjetFinal\ProjetFinal\bin\Debug\netstandard2.0\ProjetFinal.deps.json
+D:\A23\appMobile\projetFinal\projetFinal\ProjetFinal\ProjetFinal\ProjetFinal\bin\Debug\netstandard2.0\ProjetFinal.dll
+D:\A23\appMobile\projetFinal\projetFinal\ProjetFinal\ProjetFinal\ProjetFinal\bin\Debug\netstandard2.0\ref\ProjetFinal.dll
+D:\A23\appMobile\projetFinal\projetFinal\ProjetFinal\ProjetFinal\ProjetFinal\bin\Debug\netstandard2.0\ProjetFinal.pdb
+D:\A23\appMobile\projetFinal\projetFinal\ProjetFinal\ProjetFinal\ProjetFinal\obj\Debug\netstandard2.0\ProjetFinal.csproj.AssemblyReference.cache
+D:\A23\appMobile\projetFinal\projetFinal\ProjetFinal\ProjetFinal\ProjetFinal\obj\Debug\netstandard2.0\ProjetFinal.GeneratedMSBuildEditorConfig.editorconfig
+D:\A23\appMobile\projetFinal\projetFinal\ProjetFinal\ProjetFinal\ProjetFinal\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\A23\appMobile\projetFinal\projetFinal\ProjetFinal\ProjetFinal\ProjetFinal\obj\Debug\netstandard2.0\Connexion.xaml.g.cs
+D:\A23\appMobile\projetFinal\projetFinal\ProjetFinal\ProjetFinal\ProjetFinal\obj\Debug\netstandard2.0\NouveauCompte.xaml.g.cs
+D:\A23\appMobile\projetFinal\projetFinal\ProjetFinal\ProjetFinal\ProjetFinal\obj\Debug\netstandard2.0\PagePrincipale.xaml.g.cs
+D:\A23\appMobile\projetFinal\projetFinal\ProjetFinal\ProjetFinal\ProjetFinal\obj\Debug\netstandard2.0\ProjetFinal.AssemblyInfoInputs.cache
+D:\A23\appMobile\projetFinal\projetFinal\ProjetFinal\ProjetFinal\ProjetFinal\obj\Debug\netstandard2.0\ProjetFinal.AssemblyInfo.cs
+D:\A23\appMobile\projetFinal\projetFinal\ProjetFinal\ProjetFinal\ProjetFinal\obj\Debug\netstandard2.0\ProjetFinal.csproj.CoreCompileInputs.cache
+D:\A23\appMobile\projetFinal\projetFinal\ProjetFinal\ProjetFinal\ProjetFinal\obj\Debug\netstandard2.0\XamlC.stamp
+D:\A23\appMobile\projetFinal\projetFinal\ProjetFinal\ProjetFinal\ProjetFinal\obj\Debug\netstandard2.0\ProjetFinal.dll
+D:\A23\appMobile\projetFinal\projetFinal\ProjetFinal\ProjetFinal\ProjetFinal\obj\Debug\netstandard2.0\refint\ProjetFinal.dll
+D:\A23\appMobile\projetFinal\projetFinal\ProjetFinal\ProjetFinal\ProjetFinal\obj\Debug\netstandard2.0\ProjetFinal.pdb
