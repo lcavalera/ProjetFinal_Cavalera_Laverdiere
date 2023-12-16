@@ -17,6 +17,8 @@ namespace ProjetFinal
         public Connexion()
         {
             InitializeComponent();
+            var assembly = typeof(Connexion);
+            imageTitre.Source = ImageSource.FromResource("ProjetFinal.Assets.Images.image_web.png", assembly);
         }
         private async void btnCreerCompte_Clicked(object sender, EventArgs e)
         {
